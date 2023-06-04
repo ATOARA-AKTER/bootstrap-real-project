@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Poppins';
+}
+a{
+    text-decoration: none;
+}
 .title h4{
     color: #203239;
     font-size: 36px;
@@ -139,6 +145,7 @@ nav ul li a{
 /* favorit css start */
 #favorit{
     padding: 68px 100px;
+    background: #EEEDDE;
 }
 #favorit .title h5{
     font-family: 'Poppins';
@@ -153,4 +160,99 @@ nav ul li a{
     font-weight: 600;
     margin-bottom: 64px;
 } 
+#favorit .img1{
+   position: relative;
+}
+#favorit .img2{
+    position: absolute;
+    top: 60px;
+    left: 167px;
+    z-index: 2;
+}
+#favorit h2{
+    width: 507px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+}
+#favorit p{
+    font-size: 16px;
+    font-weight: 300;
+    width: 570px;
+    color: #203239;
+    margin-top: 24px;
+    margin-bottom: 61px;
+}
+#favorit .fav-bottom{
+    gap: 48px;
+    margin-bottom: 298px;
+}
+
+#favorit .fav-icon{
+    width: 50%;
+    padding: 13px 41px 13px 45px;
+    border: 1px solid #203239;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+ #favorit .icon1 {
+    color: #000000;
+} 
+ #favorit .icon2 {
+    color: #203239;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 16px;
+}
+#favorit .fav-btn{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    background: #203239;
+    padding: 13px 41px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+} 
+
 /* favorit css end */
+/* kota css start */
+#kota{
+    padding: 68px 100px;
+}
+#kota .title h5{
+    color: #FF7527;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+#kota .title h3{
+    color: #203239;
+    font-size: 36px;
+    font-weight: 600;
+}
+#kota .custom-margin{
+    margin-top: 64px;
+}
+#kota .custom-column-gap{
+    column-gap: 49px;
+}
+#kota h4{
+    margin-top: 16px;
+    margin-bottom: 8px;
+    color: #203239;
+    font-size: 24px;
+    font-weight: 500;
+}
+#kota p{
+    color: #203239;
+    width: 356px;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* kota css end */
